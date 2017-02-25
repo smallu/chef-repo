@@ -1,6 +1,11 @@
 # Put files/directories that should be ignored in this file.
 # Lines that start with '# ' are comments.
 
+
+chef/*.pem
+.chef/encrypted_data_bag_secret
+
+
 # emacs
 *~
 
